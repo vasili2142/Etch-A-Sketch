@@ -1,0 +1,23 @@
+.parentDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  width: 90vw;
+  height: 90vh;
+}
+
+.childDiv {
+  box-sizing: border-box;
+  width: 6%;
+  height: 6%;
+  background-color: blue;
+}
+
+.childDiv:hover {
+  background-color: red;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+}
